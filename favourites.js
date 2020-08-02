@@ -101,13 +101,18 @@ container.addEventListener("click", (e)=>{
 
         if (favourites.length === 0){
             container.style.display = "flex";
-            container.innerHTML = `<h1>There Are Currently No Selected Favourite Movies`
+            container.style.justifyContent = "center";
+            container.style.alignItems = "center"
+            container.innerHTML = `<h1>There Are Currently No Selected Favourite Movies</h1>`
             console.log("empty")
         }
     
         else{
             console.log("not empty")
             container.style.display = "grid";
+            container.style.justifyContent = "unset";
+            container.style.alignItems = "unset"
+
         }
     }
 
