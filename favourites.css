@@ -25,6 +25,7 @@ header
     text-align: center;
     border: 1px solid;
     border-radius: 20px;
+    padding: 0 10px 0 10px;
 }
 
 header a
@@ -235,6 +236,10 @@ a{
 
     .part2{
         width: 100%;
+    }
+
+    header{
+        padding: 0;
     }
 
 }
