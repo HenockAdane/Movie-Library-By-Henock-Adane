@@ -28,6 +28,7 @@ header
     border: 1px solid;
     background-color: rgb(37, 37, 37);
     border-radius: 20px;
+    padding: 0 10px 0 10px;
 }
 
 .name
@@ -243,6 +244,10 @@ i
 
     .part2{
         width: 100%;
+    }
+
+    header{
+        padding: 0;
     }
 
 }
