@@ -27,6 +27,7 @@ header
     text-align: center;
     border: 1px solid;
     background-color: rgb(37, 37, 37);
+    border-radius: 20px;
 }
 
 .name
@@ -187,6 +188,21 @@ i
 
     .more-info{
         width: 100%;
+    }
+
+    .name
+    {
+        animation: name 2s infinite;
+    }
+
+    @keyframes name {
+
+        50%{
+            color: yellow;
+            text-decoration: underline;
+            transition:  all 0.4 ease;
+        }
+        
     }
 
 
